@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:16px;
+    row-gap: 32px;
+}
+
+.img:hover{
+    animation: zoom 1s forwards;
+}
+
+/* This is for ipad */
+@media(max-width:900px){
+    #grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+}
+
+/* this is for mobile */
+@media(max-width:400px){
+    #grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+}

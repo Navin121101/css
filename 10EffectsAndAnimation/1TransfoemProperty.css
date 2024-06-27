@@ -1,0 +1,21 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 24px;
+
+    /* here for all x axis if for horizontal and y for verticle */
+    /* transform: translateX(25px); */
+
+    /* transform: rotateX('angle'); */
+    /* Rotate helps to rotate the given value in x,y,z axis */
+
+    /* transform:scaleX(2) */
+    /* scale means it extends the value like here it elongates the div into double the size */
+
+    /* skew helps to tilts the element */
+    /* if we give positive deg it tilts left hand side and if we give negative degree it tilts right hand side */
+    transform: skewX(20deg);
+}

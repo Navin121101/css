@@ -1,0 +1,30 @@
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    margin: 48px;
+    /* transition-property: 
+    background-color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in; */
+    /* this is the duration that it takes to transform we set the duration for transformation property */
+    /* ease in start slowly and ends fast on transition. ease out start fast and end slow */
+
+    transition: background-color 3s ease-in,border-radius 3s ease-in;
+}
+
+#div2{
+    background-color: bisque;
+    /* transition-timing-function: ease-out; */
+    transition: background-color 3s ease-out,border-radius 3s ease-out;
+}
+
+#div2:hover{
+    background-color: lightcoral;
+}
+
+div:hover{
+    background-color: lightcoral;
+    border-radius: 125px;
+}

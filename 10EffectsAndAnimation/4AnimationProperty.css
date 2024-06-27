@@ -1,0 +1,36 @@
+div{
+    height: 250px;
+    width: 250px;
+    margin: 36px;
+    border: 1px solid black;
+
+    /* animation: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: 5; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* alternate or reverse means it changes blue to coral and coral to blue */
+
+    /* animation-fill-mode: forwards; */
+    /* it pauser at the end of animation */   
+
+    animation: pulse 5s ease-in infinite;
+}
+
+div:hover{
+    animation-play-state: paused;
+}
+
+
+/* we have give name to kry frame that is pulse */
+/* 0% is starting of keyframe and 100% is ending of keyframe it means it starts with blue color and ends with coral */
+@keyframes pulse{
+    0%{
+        background-color: lightblue;
+        transform: rotateZ(0deg);
+    }
+    100%{
+        background-color: lightcoral;
+        transform: rotateZ(180deg);
+    }
+}
