@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+#container{
+    background-color: lightblue;
+    width: 100vw;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+}
+
+.item{
+    background-color: lightcoral;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px;
+    text-align: center;
+    /* flex-grow: 1; */
+    flex-basis: 120px;
+    /* flex basix to keep default minimum value  */
+}
+
+/* .item:nth-child(2){
+    background-color: aliceblue;
+
+    to change the position of 2nd element
+    order: -1;
+} */
+
+.item:nth-child(even){
+    background-color: azure;
+    align-self: center;
+}
+
+.item:nth-child(odd){
+    align-self: flex-start;
+}

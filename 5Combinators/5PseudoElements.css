@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+}
+article{
+    padding: 18px;
+    background-color: white;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 5px grey;
+}
+
+/* This pseudo element(first-line) only works for para and heading tags */
+article > p::first-line{
+    color: lightblue;
+}
+
+/* This pseudo element(first-letter) only works for para and heading tags */
+article > p::first-letter{
+    color: lightcoral;
+}
+
+/* This pseudo element work for selecting element */
+article > p::selection{
+    color:lightgray;
+}
+
+
+/* This pseudo element(before and after) is used to add some content before and after the content of html element.the addind content can be text,image or blank*/
+
+article > p::before{
+    content: "'";
+}
+article > p::after{
+    content: "'";
+}
+
+/* for addind image */
+/* inside url we have to give link */
+/* After adding before/after here we cannot change the height and width of an image */
+/* article > p::before{
+    content: url('give link here');
+} */

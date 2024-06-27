@@ -1,0 +1,18 @@
+img{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    height: 300px;
+}
+main{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#wrapper{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+}

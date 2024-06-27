@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+#container{
+    background-color: lightblue;
+    width: 100vw;
+    /* height: 100vh; */
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around;  */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+
+}
+.item{
+    background-color: lightcoral;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px;
+    text-align: center;
+}

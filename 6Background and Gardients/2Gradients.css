@@ -1,0 +1,50 @@
+/* #div1{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right,pink,lightblue);
+    gradient need three attribut like direction or we also give angle,first colour and second colour
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,pink,lightblue);
+    margin-top: 16px;
+}
+    see the difference in server when degree is changed we will understand difference
+#div3{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg,pink,lightblue);
+    margin-top: 16px;
+} */
+
+
+
+/* Radial gradient */
+/* The gradient starts from center */
+#div1{
+    width: 100%;
+    height: 100px;
+    background: radial-gradient(pink,lightblue);
+    /* radial gradient need two attribute and for some changes it need thee attribute*/
+}
+
+#div2{
+    width: 100%;
+    height: 100px;
+    background: radial-gradient(circle,pink,lightblue);
+    margin-top: 16px;
+}
+#div3{
+    width: 100%;
+    height: 100px;
+    background: radial-gradient(circle closest-side,pink,lightblue);
+    margin-top: 16px;
+}
+#div4{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at top right,pink,lightblue);
+    margin-top: 16px;
+}

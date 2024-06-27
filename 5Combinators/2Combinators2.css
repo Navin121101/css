@@ -1,0 +1,29 @@
+article{
+    padding: 18px;
+    background-color: white;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 5px grey;
+}
+
+/* Adjacent sibiling selector */
+
+/* div + p{
+    background-color: blanchedalmond;
+} */
+/* It selects the paragraph which is right next to div(like adjacent para) */
+
+/* h3 + p{
+    background-color: aliceblue;
+} */
+/* It selects the paragraph which is right next to h3(like adjacent para) */
+
+
+
+/* General sibiling selector */
+
+div~p{
+    background-color: aliceblue;
+}

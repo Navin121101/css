@@ -1,0 +1,56 @@
+body{
+    background-color: lightblue;
+}
+h2{
+    text-align: center;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+#input{
+    text-align: center;
+    padding: 20px;
+}
+.in{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-right: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    /* border: 0;
+    border-bottom: 1px solid black; */  
+}
+#submit{
+    background-color: blue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+#sub{
+    margin-left: 110px;
+}
+
+/* Psudo Classes */
+.in:focus{
+    background-color: lightgoldenrodyellow;
+}
+
+.in:disabled{
+    cursor: not-allowed;
+}
+
+.in:focus:required{
+    background-color: lightcyan;
+}
+#submit:hover{
+    background-color: lightslategray;
+}

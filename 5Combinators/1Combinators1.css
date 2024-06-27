@@ -1,0 +1,21 @@
+article{
+    padding: 18px;
+    background-color: white;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 5px grey;
+}
+
+/* Descendant Selector we will be using spacebar to define relation between two elements */
+/* article p{
+    font-size: 18px;
+    background-color: antiquewhite;
+} */
+
+/* Child selector */
+article > p{
+    background-color: bisque;
+}
+/* It onle select direct discedant of article */

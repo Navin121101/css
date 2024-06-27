@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+article{
+    padding: 18px;
+    background-color: white;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 1.4;
+    border-radius: 8px;
+    box-shadow: 0 5px grey;
+}
+
+/* Selecting the first para of each article */
+/* article > p:first-of-type{
+    background-color: aquamarine;
+} */
+
+/* Selecting the last para of each article */
+/* article>p:last-of-type{
+    background-color:lightcoral;
+} */
+
+/* selecting the second para of each article */
+/* article>p:nth-of-type(2){
+    background-color:lightblue;
+} */
+
+/* selecting the first child of each article */
+/* article>p:first-child{
+    background-color:lightgoldenrodyellow;
+} */
+
+/* selecting the last child of each article */
+/* article>p:last-child{
+    background-color:lightskyblue;
+} */
+
+/* selecting the second child of each article */
+/* article>p:nth-child(2){
+    background-color:lightslategray;
+} */
+
+/* selecting the second last child of each article */
+/* article>p:nth-last-child(2){
+    background-color:lightsalmon;
+} */

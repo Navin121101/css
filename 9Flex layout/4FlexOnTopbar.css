@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: lightgray;
+}
+#img{
+    width: 22px;
+    height: 22px;
+}
+input{
+    border-radius: 8px;
+    margin-right: 12px;
+}
+input:hover{
+    box-shadow: 1px 1px lightslategray;
+}
+
+#left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right{
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    padding-right: 12px;
+}
