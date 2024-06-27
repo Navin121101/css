@@ -1,0 +1,43 @@
+body{
+    height: 1000px;
+}
+#parent{
+    background-color: blue;
+    height: 150px;
+    margin-left: 12px;
+}
+#p{
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+#one{
+    background-color: aqua;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 1%;
+    /* position: relative; */
+    /* bottom: 16px; */
+
+    /* position: absolute; */
+
+    /* position: fixed; */
+
+    /* position: sticky;
+    top: 12px; */
+    /* Sticky should be always with condition lis top,right,bottom,left */
+}
+#two{
+    background-color: red;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 5px;
+}
+
+#three{
+    background-color: bisque;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 5px;
+}

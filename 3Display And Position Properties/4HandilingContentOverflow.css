@@ -1,0 +1,16 @@
+img{
+    width: 650px;
+    height: 750px;
+}
+#wrapper{
+    height: 600px;
+    width: 600px;
+
+    /* overflow: visible; It is the default value of overflow*/
+
+    /* overflow: hidden; */
+
+    /* overflow: scroll; */
+
+    overflow: auto;
+}

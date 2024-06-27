@@ -1,0 +1,19 @@
+#d{
+    background-color: brown;
+    height: 150px;
+    width: 150px;
+    padding: 24px;
+}
+
+#di{
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    margin-top: 24px;
+    padding:    12px;
+    box-sizing: border-box;
+    /* border box helps in contain padding within the border */
+}
+.img{
+    width: 100%;
+}

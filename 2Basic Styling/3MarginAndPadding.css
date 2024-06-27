@@ -1,0 +1,27 @@
+#secondpara{
+    border: 1px solid blue;
+    /* padding: 16px; */
+    /* padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px; */
+    
+    /* padding: 16px 20px 24px 28px; */
+    /* Padding is inside the border */
+    /*        top right bottom left (clockwise)*/
+
+    padding: 24px 24px;
+    /* First value for top and bottom Second value for right and left */
+
+    margin: 30px;
+    /* Margin is outside the border */
+
+     /* margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-left: 16px; */
+
+    /* margin: 16px 20px 24px 28px; */
+
+    /* margin: 24px 24px; */
+}

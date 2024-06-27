@@ -1,0 +1,21 @@
+.img{
+    display: inline;
+    padding-left: 12px;
+}
+.img-item{
+    width: 250px;
+    height: 180px;
+    padding-bottom: 24px;
+
+}
+.menu{
+    display: block;
+    display: none; 
+    /* Display none does not occupies any space */
+    /* visibility: hidden; */
+    /* Vidibility hidden occupies space */
+}
+#ds{
+    padding-left: 34px;
+    /* padding-right: auto; */
+}

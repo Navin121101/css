@@ -1,0 +1,30 @@
+#topbar{
+    background-color: aliceblue;
+    padding: 24px;
+}
+body{
+    margin: 0;
+}
+.menu{
+    color: black;
+    margin-right: 12px;
+    text-decoration: none;
+}
+.menu:link{
+    color: blue;
+}
+
+.menu:visited{
+    color: green;
+}
+
+.menu:hover{
+    color: black;
+}
+.menu:active{
+    color: blueviolet;
+}
+
+/* Rules:
+    1.Hover must come after link and visited
+    2.Active must come after hover */
